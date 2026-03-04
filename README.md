@@ -5,9 +5,13 @@ This project demonstrates how a Raspberry Pi can transmit an FM signal using its
 
 ## Hardware
 - Raspberry Pi Zero 2 W
+- 5V / 2A Micro-USB Power Adapter
 - Wire antenna (connected to GPIO pin 4)
 - MicroSD card with Raspberry Pi OS
 - FM radio receiver for signal testing
+- ## Hardware Setup
+
+![Hardware Setup](hardware-setup.jpg)
 
 ## Software
 - Raspberry Pi OS
@@ -59,3 +63,9 @@ signal from a WAV file, allowing the Raspberry Pi to broadcast audio.
 - The transmission range is very short (a few meters).
 - A simple wire connected to GPIO 4 acts as an antenna.
 - This project is intended for educational and experimental purposes only.
+
+## Experiment
+
+The transmission was tested using a nearby FM radio tuned to 100 MHz.
+The signal could be received within approximately 2–3 meters using a
+short wire antenna connected to GPIO 4.
