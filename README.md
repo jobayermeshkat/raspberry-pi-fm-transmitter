@@ -4,8 +4,10 @@
 This project demonstrates how a Raspberry Pi can transmit an FM signal using its GPIO pin.
 
 ## Hardware
-- Raspberry Pi
+- Raspberry Pi Zero 2 W
 - Wire antenna (connected to GPIO pin 4)
+- MicroSD card with Raspberry Pi OS
+- FM radio receiver for signal testing
 
 ## Software
 - Raspberry Pi OS
