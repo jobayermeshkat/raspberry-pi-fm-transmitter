@@ -26,3 +26,5 @@ sudo ./fm_transmitter -f 100.0 acoustic_guitar_duet.wav
 
 ## Output
 The Raspberry Pi successfully transmitted an FM signal at 100 MHz with 200 kHz bandwidth.
+
+![Terminal Output](terminal-output.png)
