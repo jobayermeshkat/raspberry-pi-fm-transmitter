@@ -42,3 +42,18 @@ The Raspberry Pi successfully transmitted an FM signal at **100 MHz** with **200
 ## Terminal Output
 
 ![Terminal Output](terminal-output.png)
+
+
+## How It Works
+
+The Raspberry Pi generates an FM signal by rapidly toggling GPIO pin 4.
+This creates a carrier frequency that can be received by nearby FM radios.
+
+The fm_transmitter program modulates the carrier frequency using the audio
+signal from a WAV file, allowing the Raspberry Pi to broadcast audio.
+
+## Notes
+
+- The transmission range is very short (a few meters).
+- A simple wire connected to GPIO 4 acts as an antenna.
+- This project is intended for educational and experimental purposes only.
